@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hi I'm Kyle - Nike</title>
+        <meta name="description" content="An overview of my work for Nike" />
+        <link rel="icon" href="/assets/favicon.svg" />
+        <link rel="mask-icon" href="mask-icon.svg" color="#000FF0" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div>
+            <div
+                class="w-full trans mt-48px sticky top-0 h-48 text-inverse f-ui-2 font-bold flex justify-between bg-[#5A5A5A] z-100"
+            >
+                <div class="container">
+                    <div
+                        class="max-w-[1400px] flex w-full h-full mx-auto items-center justify-between"
+                    >
+                        <span class="hidden md:block">Nike</span>
+
+                        <div class="flex gap-x-12">
+                            <a href="/" class="block">Head Home </a>
+                            <a
+                                href="https://github.com/kylegoines"
+                                class="block"
+                                >Github
+                            </a>
+                            <a href="/resume" class="block">Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main>
+                <div
+                    class="bg-secondary border border-primary overflow-hidden pb-48"
+                >
+                    <div class="max-w-[1400px] mx-auto pt-64 container">
+                        <div class="flex flex-col gap-y-48">
+                            <div class="border relative shadow-block">
+                                <img
+                                    class="absolute top-0 left-0"
+                                    src="/assets/still.png"
+                                    data-component="Video"
+                                    data-video-url="/assets/nike.mov"
+                                />
+                            </div>
+
+                            <div
+                                class="flex flex-col md:flex-row justify-center gap-y-24"
+                            >
+                                <div
+                                    class="md:max-w-[400px] md:mx-12 shadow-block w-full"
+                                >
+                                    <img
+                                        src="assets/nike1.png"
+                                        alt="A mobile snapshot of the Nike newsroom page"
+                                    />
+                                </div>
+                                <div
+                                    class="md:max-w-[400px] w-full md:mx-12 shadow-block"
+                                >
+                                    <img
+                                        src="assets/nike3.png"
+                                        alt="A mobile snapshot of the nike homepage"
+                                    />
+                                </div>
+                            </div>
+
+                            <img
+                                src="assets/nike2.png"
+                                class="shadow-block"
+                                alt="A desktop snapshot of the Nike home page"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container max-w-[1200px]">
+                    <header
+                        class="mt-title-1 mx-auto pb-24 border-b border-primary"
+                    >
+                        <h1 class="f-heading-1">Nike - About Site</h1>
+                        <span class="f-ui-1 font-bold text-accent">
+                            High Impact User-facing
+                        </span>
+                    </header>
+
+                    <div
+                        class="lg:pr-[120px] mt-48 flex flex-col lg:flex-row lg:justify-between gap-y-48 pb-124"
+                    >
+                        <div class="max-w-[600px]">
+                            <h2 class="f-ui-1 font-bold">Brief</h2>
+                            <div class="flex flex-col gap-y-12 mt-12 f-ui-2">
+                                <p>
+                                    Nike asked our team to rebuild and redesign:
+                                    Nike - About site. This site is a high
+                                    traffic portal for press releases and public
+                                    relations. Due to the nature of the client
+                                    and the requirements of the project
+                                    stability and speed were of the utmost
+                                    importance.
+                                </p>
+                                <p>
+                                    The project was delivered as a complete UI
+                                    design system managed and developed in
+                                    storybook. The application is built in
+                                    Next.js with server-side generation of pages
+                                    for increased page load speed as well built
+                                    in typescript for development assurance and
+                                    stability.
+                                </p>
+                            </div>
+                            <div>
+                                <a
+                                    target="_blank"
+                                    href="https://about.nike.com/"
+                                    class="mt-[24px] font-bold text-accent no-underline hover:underline inline-block f-ui-2"
+                                    >View Live Site
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="f-ui-1 font-bold">Tools</h2>
+                            <ul
+                                class="mt-[12px] f-ui-2 flex flex-col gap-y-[4px]"
+                            >
+                                <li>Typescript</li>
+                                <li>React</li>
+                                <li>Next.js</li>
+                                <li>CSS in JS</li>
+                                <li>WCAG 2.1</li>
+                                <li>Storybook</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- <div class="dev-tools">
+            <button
+                class="dev-tools-toggle"
+                onclick="this.nextElementSibling.hidden = !this.nextElementSibling.hidden;"
+            ></button>
+            <div class="dev-tools-grid" hidden=""></div>
+        </div> -->
+
+        <script type="module" src="main.js"></script>
+    </body>
+</html>

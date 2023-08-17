@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hi I'm Kyle</title>
+        <meta name="description" content="My portfolio" />
+        <link rel="icon" href="/assets/favicon.svg" />
+        <link rel="mask-icon" href="mask-icon.svg" color="#000FF0" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container mx-auto">
+            <div class="max-w-[700px] mx-auto">
+                <header class="mt-space-2">
+                    <h1 class="f-heading-1">
+                        Hi, my name is
+                        <em class="not-italic text-accent">Kyle</em>
+                    </h1>
+                    <p class="f-ui-1 mt-space-1">
+                        I&#39;m a web developer with over ten years of
+                        experience building responsive, well-tested,
+                        award-winning user interfaces and design systems. My
+                        mission is to provide value through
+                        <strong>accessibility first</strong>,
+                        <strong>clarity of form,</strong> and
+                        <strong>stability of product.</strong>
+                    </p>
+                </header>
+
+                <main class="mt-space-2">
+                    <h2 id="my-work" class="f-ui-1 font-bold">Recent Work</h2>
+                    <ul
+                        aria-labelledby="my-work"
+                        class="f-ui-1 flex flex-col mt-space-1 gap-y-[18px]"
+                    >
+                        <li>
+                            <a
+                                href="/us"
+                                class="focus-visible:outline-none focus-visible:bg-accent focus-visible:text-inverse hover:text-accent"
+                                >US Chamber of Commerce</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="/nike"
+                                class="focus-visible:outline-none focus-visible:bg-accent focus-visible:text-inverse hover:text-accent"
+                                >Nike</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="/ny"
+                                class="focus-visible:outline-none focus-visible:bg-accent focus-visible:text-inverse hover:text-accent"
+                                >New York Times</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="/getty"
+                                class="focus-visible:outline-none focus-visible:bg-accent focus-visible:text-inverse hover:text-accent"
+                                >Getty Museum</a
+                            >
+                        </li>
+                    </ul>
+
+                    <hr class="mt-space-2 text-[#eee]" />
+
+                    <h2 id="open-source" class="f-ui-1 mt-space-2 font-bold">
+                        Open Source Projects
+                    </h2>
+                    <ul
+                        aria-labelledby="open-source"
+                        class="f-ui-1 flex flex-col mt-space-1 gap-y-[18px]"
+                    >
+                        <li>
+                            <a
+                                target="_blank"
+                                href="https://github.com/kylegoines/seltzer-components"
+                                class="focus-visible:outline-none focus-visible:bg-accent focus-visible:text-inverse hover:text-accent"
+                                >Seltzer Components</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                target="_blank"
+                                href="https://github.com/area17/flotsam"
+                                class="focus-visible:outline-none focus-visible:bg-accent focus-visible:text-inverse hover:text-accent"
+                                >Flotsam Autocomplete</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                target="_blank"
+                                href="https://github.com/area17/tailwind-plugins"
+                                class="focus-visible:outline-none focus-visible:bg-accent focus-visible:text-inverse hover:text-accent"
+                                >AREA 17 Tailwind Plugins</a
+                            >
+                        </li>
+                    </ul>
+                </main>
+            </div>
+        </div>
+
+        <!-- <div class="dev-tools">
+            <button
+                class="dev-tools-toggle"
+                onclick="this.nextElementSibling.hidden = !this.nextElementSibling.hidden;"
+            ></button>
+            <div class="dev-tools-grid" hidden=""></div>
+        </div> -->
+
+        <script type="module" src="main.js"></script>
+    </body>
+</html>

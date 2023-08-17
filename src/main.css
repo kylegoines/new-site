@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+    overflow: initial !important;
+}
+
+.swiper-pagination {
+    /* top: -40px !important; */
+    bottom: -40px !important;
+}
+
+.swiper-pagination-bullet-active {
+    color: blue !important;
+}
+
+.swiper-wrapper {
+    height: auto !important;
+}

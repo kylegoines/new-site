@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hi I'm Kyle - NYT</title>
+        <meta
+            name="description"
+            content="An overview of my work for the New York Times"
+        />
+        <link rel="icon" href="/assets/favicon.svg" />
+        <link rel="mask-icon" href="mask-icon.svg" color="#000FF0" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div>
+            <div
+                class="w-full trans mt-48px sticky top-0 h-48 text-inverse f-ui-2 font-bold flex justify-between bg-[#5A5A5A] z-100"
+            >
+                <div class="container">
+                    <div
+                        class="max-w-[1400px] flex w-full h-full mx-auto items-center justify-between"
+                    >
+                        <span class="hidden md:block">Nike</span>
+                        <div class="flex gap-x-12">
+                            <a href="/" class="block">Head Home </a>
+                            <a
+                                href="https://github.com/kylegoines"
+                                class="block"
+                                >Github
+                            </a>
+                            <a href="/resume" class="block">Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main>
+                <div
+                    class="bg-secondary border border-primary overflow-hidden pb-48"
+                >
+                    <div class="max-w-[1400px] mx-auto pt-64 container">
+                        <div class="relative flex flex-col gap-y-48">
+                            <img
+                                class="w-full block shadow-block"
+                                src="/assets/events.png"
+                                alt="A snapshot of the NYT events page"
+                            />
+
+                            <div class="flex">
+                                <div>
+                                    <img
+                                        class="block shadow-block w-full"
+                                        src="/assets/ny2.png"
+                                        alt="A snapshot of the NYT events' speakers modal"
+                                    />
+                                </div>
+                                <div class="ml-24">
+                                    <img
+                                        class="block shadow-block w-full"
+                                        src="/assets/ny3.png"
+                                        alt="A mobile snapshot of a sample event"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="shadow-block mt-24">
+                                <img
+                                    src="assets/ny4.png"
+                                    class="w-full"
+                                    alt="A snapshot of the ticket section of a current event"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container max-w-[1200px]">
+                    <header
+                        class="mt-title-1 mx-auto pb-24 border-b border-primary"
+                    >
+                        <h1 class="f-heading-1">New York Times - Events</h1>
+                        <span class="f-ui-1 font-bold text-accent">
+                            Future-forward Catalogue
+                        </span>
+                    </header>
+
+                    <div
+                        class="lg:pr-[120px] mt-48 flex flex-col lg:flex-row lg:justify-between gap-y-48 pb-124"
+                    >
+                        <div class="max-w-[600px]">
+                            <h2 class="f-ui-1 font-bold">Brief</h2>
+
+                            <div class="flex flex-col gap-y-12 mt-12 f-ui-2">
+                                <p>
+                                    The New York Times wanted a unique
+                                    application experience to manage and track
+                                    past and future events. They wanted users to
+                                    be able to filter through existing tags as
+                                    well as be able to extend custom tags and
+                                    taxonomies as the site grew. By building a
+                                    custom experience using laravel, tailwind
+                                    and modern javascript we were able to
+                                    deliver a design system and UI system that
+                                    lives within the New York Times brand, but
+                                    with a clean modern interface.
+                                </p>
+                                <p>
+                                    The system is backed with a storybook
+                                    pattern library for standalone UI elements
+                                    and a CI/CD pipeline of redundancy checks to
+                                    confirm the stability and expected behavior
+                                    of the interface.
+                                </p>
+                            </div>
+                            <div>
+                                <a
+                                    target="_blank"
+                                    href="https://www.nytimes.com/events"
+                                    class="mt-[24px] font-bold text-accent no-underline hover:underline inline-block f-ui-2"
+                                    >View Live Site
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="f-ui-1 font-bold">Tools</h2>
+                            <ul
+                                class="mt-[12px] f-ui-2 flex flex-col gap-y-[4px]"
+                            >
+                                <li>Javascript</li>
+                                <li>Tailwind</li>
+                                <li>Laravel</li>
+                                <li>PHP</li>
+                                <li>WCAG 2.1</li>
+                                <li>Storybook</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- <div class="dev-tools">
+            <button
+                class="dev-tools-toggle"
+                onclick="this.nextElementSibling.hidden = !this.nextElementSibling.hidden;"
+            ></button>
+            <div class="dev-tools-grid" hidden=""></div>
+        </div> -->
+
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
