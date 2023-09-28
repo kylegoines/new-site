@@ -116,21 +116,27 @@
             "ui-1": {
                 "xs": {
                     "font-family": "var(--sans)",
-                    "font-size": "31px",
+                    "font-size": "24px",
                     "font-weight": "400",
                     "letter-spacing": "0",
                     "line-height": "1.4",
                     "-webkit-font-smoothing": "antialiased"
+                },
+                "md": {
+                    "font-size": "31px"
                 }
             },
             "heading-1": {
                 "xs": {
                     "font-family": "var(--sans)",
-                    "font-size": "76px",
+                    "font-size": "48px",
                     "font-weight": "400",
                     "letter-spacing": "0",
                     "line-height": "1.1",
                     "-webkit-font-smoothing": "antialiased"
+                },
+                "md": {
+                    "font-size": "76px"
                 }
             },
             "ui-2": {

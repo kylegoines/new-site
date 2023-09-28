@@ -18,22 +18,25 @@
         <div class="container mx-auto">
             <div class="max-w-[700px] mx-auto">
                 <header class="mt-space-2">
-                    <h1 class="f-heading-1">
-                        Hi, my name is
-                        <em class="not-italic text-accent">Kyle</em>
+                    <h1 class="f-heading-1 invisible" data-component="Title">
+                        Hi, <span></span> my name is
+                        <span class="not-italic text-accent">Kyle</span>
                     </h1>
-                    <p class="f-ui-1 mt-space-1">
-                        I&#39;m a web developer with over ten years of
-                        experience building responsive, well-tested,
-                        award-winning user interfaces and design systems. My
-                        mission is to provide value through
-                        <strong>accessibility first</strong>,
-                        <strong>clarity of form,</strong> and
-                        <strong>stability of product.</strong>
-                    </p>
+                    <div class="flex-col flex gap-y-[24px]">
+                        <p class="f-ui-1 mt-space-1">
+                            I&#39;m a web developer with over ten years of
+                            experience building responsive, well-tested,
+                            award-winning user interfaces and design systems.
+                        </p>
+                        <p class="text-accent f-ui-1 opacity-75">
+                            My mission is to provide value through prioritizing
+                            accessibility, ensuring clarity of form, and
+                            maintaining product stability.
+                        </p>
+                    </div>
                 </header>
 
-                <main class="mt-space-2">
+                <main class="mt-space-2 mb-space-2">
                     <h2 id="my-work" class="f-ui-1 font-bold">Recent Work</h2>
                     <ul
                         aria-labelledby="my-work"
@@ -57,7 +60,7 @@
                             <a
                                 href="/ny"
                                 class="focus-visible:outline-none focus-visible:bg-accent focus-visible:text-inverse hover:text-accent"
-                                >New York Times</a
+                                >New York Times - Events</a
                             >
                         </li>
                         <li>
